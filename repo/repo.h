@@ -1,9 +1,9 @@
 #pragma once
-#include "domain.h"
+#include "domain/domain.h"
 #include <vector> 
 #include <iostream>
 #include <fstream>
-#include "exception.h"
+#include "exception/exception.h"
 
 class EventRepo
 {

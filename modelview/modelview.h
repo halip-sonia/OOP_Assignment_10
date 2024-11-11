@@ -2,7 +2,7 @@
 #include <QAbstractTableModel>
 #include <vector>
 #include <QString>
-#include "service.h"
+#include "service/service.h"
 #include <QFont>
 #include "qfontmetrics.h"
 

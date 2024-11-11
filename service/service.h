@@ -1,10 +1,10 @@
 #pragma once
 
-#include "repo.h"
-#include "undoredo.h"
+#include "repo/repo.h"
+#include "undoredo/undoredo.h"
 #include <iostream>
 #include <algorithm>
-#include "validation.h"
+#include "validation/validation.h"
 
 
 //int is_existent_add(EventRepo& er, Event& e);

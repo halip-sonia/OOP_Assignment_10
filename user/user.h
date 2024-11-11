@@ -4,8 +4,8 @@
 #include <shellapi.h>
 
 #include <vector>
-#include "domain.h"
-#include "repo.h"
+#include "domain/domain.h"
+#include "repo/repo.h"
 #include <iostream>
 #include <string>
 #include <cstring>

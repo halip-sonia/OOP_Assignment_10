@@ -2,19 +2,19 @@
 
 #include <QtWidgets/QMainWindow>
 #include "ui_gui.h"
-#include "service.h"
+#include "service/service.h"
 #include <qlistwidget.h>
 #include <qlineedit.h>
 #include <qpushbutton.h>
 #include <qwidget.h>
-#include "user.h"
+#include "user/user.h"
 #include <QHBoxLayout>
 #include<QLineEdit>
 #include<QObject>
 #include<qobject.h>
 #include<qdesktopservices.h>
 #include <QShortcut>
-#include "modelview.h"
+#include "modelview/modelview.h"
 #include <qtableview.h>
 #include <QHeaderView>
 #include <QSizePolicy>

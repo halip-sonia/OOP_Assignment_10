@@ -1,7 +1,7 @@
 #pragma once
 #include <vector>
 #include <string>
-#include "repo.h"
+#include "repo/repo.h"
 
 class RepoException {
 private:

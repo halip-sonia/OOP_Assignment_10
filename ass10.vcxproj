@@ -97,38 +97,44 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="exception.cpp" />
-    <ClCompile Include="modelview.cpp" />
-    <ClCompile Include="repo.cpp" />
-    <ClCompile Include="service.cpp" />
-    <ClCompile Include="undoredo.cpp" />
-    <ClCompile Include="user.cpp" />
-    <ClCompile Include="validation.cpp" />
-    <ClInclude Include="exception.h" />
-    <ClInclude Include="modelview.h" />
-    <ClInclude Include="undoredo.h" />
-    <ClInclude Include="user.h" />
-    <ClInclude Include="validation.h" />
-    <QtRcc Include="gui.qrc" />
-    <QtUic Include="gui.ui" />
-    <ClInclude Include="gui.h" />
-    <ClCompile Include="domain.cpp" />
-    <ClCompile Include="gui.cpp" />
+    <ClCompile Include="domain\domain.cpp" />
+    <ClCompile Include="exception\exception.cpp" />
+    <ClCompile Include="gui\gui.cpp" />
     <ClCompile Include="main.cpp">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="domain.h" />
-    <ClInclude Include="repo.h" />
-    <ClInclude Include="service.h" />
+    <ClCompile Include="modelview\modelview.cpp" />
+    <ClCompile Include="repo\repo.cpp" />
+    <ClCompile Include="service\service.cpp" />
+    <ClCompile Include="undoredo\undoredo.cpp" />
+    <ClCompile Include="user\user.cpp" />
+    <ClCompile Include="validation\validation.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="user.csv" />
     <None Include="user.html" />
+    <None Include="user\user.csv" />
+    <None Include="user\user.html" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="events.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="domain\domain.h" />
+    <ClInclude Include="exception\exception.h" />
+    <ClInclude Include="gui\gui.h" />
+    <ClInclude Include="modelview\modelview.h" />
+    <ClInclude Include="repo\repo.h" />
+    <ClInclude Include="service\service.h" />
+    <ClInclude Include="undoredo\undoredo.h" />
+    <ClInclude Include="user\user.h" />
+    <ClInclude Include="validation\validation.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="gui\gui.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="gui\gui.ui" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

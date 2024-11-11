@@ -1,7 +1,7 @@
 #pragma once
 #include <vector>
 #include <string>
-#include "domain.h"
+#include "domain/domain.h"
 
 class EventException {
 private:

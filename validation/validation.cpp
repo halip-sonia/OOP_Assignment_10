@@ -20,7 +20,7 @@ bool EventValidator::validate_date(char* dateStr)
     int day, month, year;
     sscanf(dateStr, "%d/%d/%d", &day, &month, &year);
 
-    if (day < 1 || day > 30 || month < 1 || month > 12 || year != 2024) {
+    if (day < 1 || day > 30 || month < 1 || month > 12 || year < 2024) {
         return false;
     }
 
